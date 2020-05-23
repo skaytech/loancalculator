@@ -28,7 +28,7 @@ function calculate() {
         totalPayment.value = (monPayment * calcPayment).toFixed(2);
         totalInterest.value = ((monPayment * calcPayment) - principal).toFixed(2);
     } else {
-        showError('Check the input values again');
+        showError('Check the input values and try again');
     }
 }
 
